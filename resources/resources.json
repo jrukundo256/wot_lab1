@@ -1,0 +1,36 @@
+{
+    "pi": {
+        "name": "wot",
+        "description": "Lab 5 - A simple WoT",
+        "port": 3000,
+
+        "sensors": {
+            "pir": {
+                "name": "Passive Infrared Sensor",
+                "description": "A PIR Sensor for detecting a Person or an Object",
+                "unit": "",
+                "value": true,
+                "gpio": 27
+            }  
+        },
+
+        "actuators": {
+            "leds": {
+                "green": {
+                    "name": "LED 1 - GREEN",
+                    "decription": "Green LED for Actuation",
+                    "value": true,
+                    "gpio": 23
+                },
+
+                "red": {
+                    "name": "LED 2 - RED",
+                    "decription": "Red LED for Actuation",
+                    "value": true,
+                    "gpio": 24
+                }
+            }
+        }
+
+    }
+}
